@@ -1,8 +1,8 @@
 var webpack = require('webpack');
 
 const config = {
-  entry: "./client.js",
-  output: { filename: "client.min.js" },
+  entry: "./index.js",
+  output: { filename: "bundle.js" },
   module: {
     loaders: [
       {
