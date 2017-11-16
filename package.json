@@ -16,7 +16,8 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "dev": "webpack-dev-server --progress --inline --hot"
+    "dev": "webpack-dev-server --progress --inline --hot",
+	"build": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
