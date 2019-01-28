@@ -5,7 +5,7 @@ const config = {
   output: { filename: "bundle.js" },
   devtool: 'cheap-module-source-map',
   module: {
-    loaders: [
+    rules: [
       {  test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets: ['react', 'env'] }  }
     ]
   },
