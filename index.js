@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = (props) => <h3>Heist</h3>;
+const App = (props) => <h1>Begin</h1>;
 
 ReactDOM.render(<App/>, document.getElementById('root'));

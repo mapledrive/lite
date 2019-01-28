@@ -6,7 +6,7 @@ const config = {
   devtool: 'eval',
   devServer: { stats: 'errors-only', open: true },
   module: {
-    loaders: [
+    rules: [
       {  test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/, query: { presets: ['react', 'env'] }  }
     ]
   }
