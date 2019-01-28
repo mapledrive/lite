@@ -1,6 +1,6 @@
 ## Инструкция по этапам разработки:
 1. Переходим в корень диска c:  cd..  cd..
-2. Клонируем config например в папку lite: git clone https://github.com/mapledrive/lite.git
+2. Клонируем проект в папку lite: git clone https://github.com/mapledrive/lite.git
 3. Переходим в папку lite :   cd lite
 4. Устанавливаем все пакеты npm install
 5. Запускаем сервер для разработки npm run dev
